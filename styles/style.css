@@ -6,3 +6,31 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+*{
+    background-color: white;
+}
+
+.music-for-everyone{
+    display: flex;
+}
+
+.music-for-everyone img{
+    height: 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+nav{
+    position: fixed;
+}
+
+.musicContent{
+background-image: url("landing.jpg");
+}
